@@ -1,8 +1,8 @@
 /* google fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 /* reset default style */
 
 * {
@@ -15,7 +15,7 @@
 
 body {
   background: #fcfcfc;
-  font-family: "Istok Web", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1,
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "RocknRoll One", sans-serif !important;
+  font-family: 'Roboto Mono', monospace;
 }
 
 a {

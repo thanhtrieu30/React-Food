@@ -1,0 +1,44 @@
+.hero__title span {
+    color: #df2020;
+}
+.hero__title {
+    font-size: 2.5rem;
+}
+.hero__btn button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order__btn {
+    background: #df2020;
+    color: #fff;
+    transition: 0.3s;
+    font-weight: 700;
+}
+.order__btn:hover {
+    background: #212245;
+}
+
+.allfoods__btn {
+    background: transparent;
+    color: #df2020;
+    border: 1px solid #df2020 !important;
+    font-weight: 700;
+}
+
+.shipping__icon i {
+    color: #fff;
+    padding: 5px;
+    background: #df2020;
+    border-radius: 50%;
+
+    
+}
+ 
+.hero__secure  {
+    color: #212245;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
