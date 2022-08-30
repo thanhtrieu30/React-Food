@@ -1,15 +1,27 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import '../styles/Home-hero.css';
+import { Link } from 'react-router-dom';
 //import components
 import Helmet from '../components/Helmet/Helmet';
-
+import Category from '../components/UI/Category/Category';
+import products from '../assets/fake-data/products';
+import ProductCard from '../components/UI/product_card/Product_card';
 // import images
 import heroImg from '../assets/images/hero.png'
-import { Link } from 'react-router-dom';
+import foodBurger from '../assets/images/hamburger.png';
+import foodPizza from '../assets/images/pizza.png';
+import foodBread from '../assets/images/bread.png';
+
+
+ 
+const featureData = [];
+
 const Home = () => {
   return (
     <Helmet title='Home'>
+
+      {/* Home-hero */}
       <section>
         <Container>
           <Row>
@@ -44,6 +56,41 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      {/* End Home-hero */}
+
+      {/* Home-category */}
+      <section>
+        <Category />
+      </section>
+      {/* End Home-category */}
+
+      {/* Home-ProductItem */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className='text-center'>
+              <h2>Popular Foods</h2>
+            </Col>
+
+            <Col lg='12' className='food__category d-flex align-items-center justify-content-center gap-5'>
+                <button className='btn__all footBtnActive'>All</button>
+                <button className='btn__burger '><img src={foodBurger} alt="foodBurger" /> Burger</button>
+                <button className='btn__pizza '><img src={foodPizza} alt="foodPizza" /> Pizza</button>
+                <button className='btn__bread '><img src={foodBread} alt="foodBread" /> Bread</button>
+            </Col>
+
+            {products.map(item => (
+              <Col lg='3' md='4' key={item.id}>
+                <ProductCard item={item} />
+              </Col>
+            ))}
+            
+          </Row>
+        </Container>
+      </section>
+      {/* End Home-ProductItem */}
+
+
     </Helmet>
   )
 }

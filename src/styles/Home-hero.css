@@ -42,3 +42,23 @@
     font-size: 0.9rem;
     margin-right: 10px;
 }
+
+.food__category {
+    background: #df2020;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.food__category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+}
+
+.footBtnActive {
+    border-bottom: 1px solid #fff !important;
+}

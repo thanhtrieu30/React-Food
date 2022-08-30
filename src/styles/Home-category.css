@@ -1,0 +1,10 @@
+.category__item {
+    background: #fde4e4;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.category__item:hover {
+    transform: translateY(-15px);
+}
