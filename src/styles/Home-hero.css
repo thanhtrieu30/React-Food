@@ -62,3 +62,13 @@
 .footBtnActive {
     border-bottom: 1px solid #fff !important;
 }
+
+.introP {
+    color: #212245;
+    font-weight: 700;
+
+}
+
+.css__intro {
+    color: #df2020;
+}

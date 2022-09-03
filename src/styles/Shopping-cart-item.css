@@ -1,0 +1,48 @@
+.cart__item__info {
+    display: flex;
+}
+
+.cart__item__info img {
+width: 40px;
+height: 40px;
+object-fit: cover;
+}
+
+.cart__title {
+    color: #212245;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cart__price {
+    font-size: 13px;
+}
+
+.cart__price span {
+    font-size: 15px;
+    font-weight: 700;
+    color: #df2020;
+    
+}
+
+
+
+.cart__edit {
+    background:#fde4e4;
+    padding: 3px 6px;
+    border-radius: 5px;
+
+
+}
+
+.tang-btn,
+.giam-btn {
+    cursor: pointer;
+}
+
+.delete-btn {
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+

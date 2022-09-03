@@ -73,7 +73,8 @@
     top: 0;
     left: 0;
     box-shadow: 5px 5px 15px -5px #fde4e4 ;
-    
+    background: #fff;
+    z-index: 99999;
 }
 
 @media only screen and (max-width : 992px) {
@@ -127,11 +128,14 @@
     @media only screen and (max-width:768px) {
         .header {
             width: 100%;
-            height: 50px;
-            line-height: 50px;
+            height: 80px;
+            line-height: 80px;
+        }
+        .logo img {
+            margin-top: -40px !important;
         }
         .logo h5 {
-            margin-top: 0px;
+            margin-top: -40px;
         }
         
     }
