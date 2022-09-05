@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../styles/Product-card.css'
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import {cartActions} from '../../../store/shopping-cart/cartSlice';
 
@@ -24,7 +24,7 @@ const ProductCard = (props) => {
         </div>
         <div className='product_content'>
             <h5 className='product__h5'>
-                <Link to={`/foods/${id}`}>{title}</Link>
+                <p>{title}</p>
             </h5>
             <div className='d-flex align-items-center justify-content-between '>
                 <span className='product__price'>

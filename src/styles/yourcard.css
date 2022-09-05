@@ -1,0 +1,21 @@
+th {
+    text-align: center;
+}
+
+.detail_img {
+   width:  80px;
+}
+
+.detail_img img {
+   width:  100%;
+}
+
+.detail__delete {
+    cursor: pointer;
+}
+
+.total__detail {
+    color: #df2020;
+    font-size: 30px;
+    font-weight: 700;
+}

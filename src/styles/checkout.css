@@ -1,0 +1,21 @@
+.checkout__total {
+    background: #fde4e4;
+    padding: 30px;
+}
+
+.form__group input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fde4e4;
+}
+
+
+.end {
+    margin-top: 50px;
+    border-top: 1px solid #362828;
+}
+.end h4 {
+    margin-top: 10px;
+}
